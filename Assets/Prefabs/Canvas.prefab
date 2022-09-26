@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833898773954801335}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ranking, Assembly-CSharp
         m_MethodName: DelRank
         m_Mode: 1
@@ -407,7 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 2nd
 --- !u!1 &1833898773021276293
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +631,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 1st
 --- !u!1 &1833898773203015607
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 3rd
 --- !u!1 &1833898773480233438
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +881,6 @@ GameObject:
   - component: {fileID: 1833898773954801329}
   - component: {fileID: 1833898773954801330}
   - component: {fileID: 1833898773954801331}
-  - component: {fileID: 1833898773954801335}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -971,18 +970,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1833898773954801335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833898773954801340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa9007d984f38a347bc44411057ef3c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1833898774199392762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1091,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833898773954801335}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Ranking, Assembly-CSharp
         m_MethodName: SetRank
         m_Mode: 1
